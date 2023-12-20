@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.container input {
+    font-size: 2rem;
+    width: 50%;
+    height: 2.5rem;
+    padding: 10px;
+}
+
+.container button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #DC3545;
+}
+
+.container button:active {
+    padding: 0.8rem;
+}
+
+.container img {
+    width: 33rem;
+    object-fit: cover;
+}
+
+.hide {
+    filter: blur(1.5rem);
+}
